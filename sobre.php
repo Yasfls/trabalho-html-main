@@ -7,13 +7,14 @@
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
+    <?php include 'includes/header.php';?>
         <div class="container">
-            <?php include 'includes/header.php';?>
             <main>
                 <div class="position-relative">
                     <h1>Sobre</h1>
-                    <p>Sobre a empresa</p>
-                    <img src="assets/images/dogfofinho.jpg" class="img-fluid foto" alt="">
+                    <p>Realizamos transportes de animais de forma segura e 100% confiável</p>
+                    <p>Atuamos na cidade de Joinville</p>
+                    <img src="assets/images/dogfofinho.jpg" class="img-fluid foto"alt="">
                 </div>
             </main>
         <?php include 'includes/footer.php';?>

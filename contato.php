@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
+    <?php include 'includes/header.php';?>
         <div class="container">
-            <?php include 'includes/header.php';?>
             <main>
                 <div>
                     <h1 id="clique_exercicio">Contato</h1>

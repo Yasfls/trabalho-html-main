@@ -155,74 +155,86 @@ body {
 
 .container {
   max-width: 80%; /* Largura máxima do container */
-  background-color: #8DA9C4;
+  background-color: #ffffff;
   /* border-width: 1px;
       border-style: solid;
       border-color: red; */
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  border-radius: 50px;
-  border-radius: 25px;
+  border-radius: 10px;
   margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .img-fluid {
-  width: 100%; /* Largura 100% */
+  width:100%;
   height: auto;
 }
 .aifolou
 {
-  width: 200px; /* Largura 100% */
+  width: 180px; /* Largura 100% */
   height: auto;
   border-width: 10px;
   border-radius: 500px;
   position: absolute;
-  margin-top: -230px;
+  margin-top: -190px;
   margin-left: 300px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .amigo
 {
-  width: 200px; /* Largura 100% */
+  width: 180px; /* Largura 100% */
   height: auto;
   border-width: 10px;
   position: absolute;
-  margin-left: 700px;
+  margin-left: 690px;
   border-radius: 500px;
-  margin-top: -240px;
+  margin-top: -205px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .entrega
 {
-  width: 200px; /* Largura 100% */
+  width: 180px; /* Largura 100% */
   height: auto;
   border-width: 10px;
   position: absolute;
-  margin-left: 1100px;
+  margin-left: 1050px;
   border-radius: 500px;
-  margin-top: -240px;
+  margin-top: -205px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .caixaprot
 {
-  color: rgb(255, 255, 255);
-  margin-top: 200px;
+  color: rgb(0, 0, 0);
+  
+  margin-top: 210px;
   margin-left: 200px;
+}
+.entregasdog
+{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-left: 1020px;
+  margin-top: -20px;
 }
 .caixaamigo
 {
   position: absolute;
-  color: rgb(255, 255, 255);
-  margin-left: 680px;
+  color: rgb(0, 0, 0);
+  margin-left: 670px;
   margin-top: -20px;
 }
 .dogdirige
 {
   width: 1000px;
   margin-top: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .text-center {
   text-align: center; /* Alinha o texto dos filhos do elemento*/
-  color: rgb(255, 255, 255); /* Define a cor dos filhos do elemento*/
+  color: rgb(0, 0, 0); /* Define a cor dos filhos do elemento*/
   font-size: 20px;
 }
 
@@ -287,7 +299,9 @@ h1 {
 }
 
 .foto {
-  max-width: 200px;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-left: 80px;
   transform: translateX(-30px);
 }
 

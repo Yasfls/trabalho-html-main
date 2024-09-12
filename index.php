@@ -8,10 +8,10 @@
     </head>
     <body>
     <?php include 'includes/header.php';?>
-    <div class="position-relative">
-    <img src="assets/images/petexpress.jpeg" class="dogdirige"  alt="">
-    </div>
         <div class="container">
+        <div class="position-relative">
+        <img src="assets/images/petexpress.jpeg" class="dogdirige"  alt="">
+        </div>
             <main>
                 <div>
                 <img src="assets/images/aifolou.jpg" class="aifolou"  alt="">
@@ -19,6 +19,7 @@
                 <img src="assets/images/amigo.jpg" class="amigo"  alt="">
                 <p class="caixaamigo">Transportamos diversos animais!</p>
                 <img src="assets/images/entrega.jpg" class="entrega"  alt="">
+                <p class="entregasdog">Realizamos entregas de produtos!</p>
                 </div>
             </main>
             <?php include 'includes/footer.php';?>
